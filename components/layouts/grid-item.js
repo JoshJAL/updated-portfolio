@@ -25,6 +25,14 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
   <Box w="100%" align="center">
     <NextLink href={`/works/${id}`}>
       <LinkBox cursor="pointer">
+        <LinkOverlay href={`/works/${id}`}>
+          <Text mt={2} fontSize={20}>
+            {title}
+          </Text>
+        </LinkOverlay>
+        <Text style={{ marginBottom: '10px' }} fontSize={14}>
+          {children}
+        </Text>
         <Box
           borderColor="blackAlpha.300"
           borderWidth={2}
@@ -38,12 +46,6 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
             placeholder="blur"
           />
         </Box>
-        <LinkOverlay href={`/works/${id}`}>
-          <Text mt={2} fontSize={20}>
-            {title}
-          </Text>
-        </LinkOverlay>
-        <Text fontSize={14}>{children}</Text>
       </LinkBox>
     </NextLink>
   </Box>

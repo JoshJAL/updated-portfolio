@@ -69,7 +69,7 @@ const Navbar = props => {
           justifyContent="end"
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Projects
           </LinkItem>
           <LinkItem href="/contactMe" path={path}>
             Contact Info
@@ -90,7 +90,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <NextLink href="/contactMe" passHref>
                   <MenuItem as={Link}>Contact Info</MenuItem>

@@ -11,7 +11,7 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" variant="section-title">
-          Works
+          Projects
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
@@ -22,15 +22,17 @@ const Works = () => {
             >
               A restaurant reservation system for a fictional restaurant
             </WorkGridItem>
+            <hr style={{ marginTop: '50px' }} />
           </Section>
           <Section>
             <WorkGridItem
               id="flashcard"
-              title="Flashcard"
+              title="Flashcard-O-Matic"
               thumbnail={thumbFlashCard}
             >
               A flashcard making app for taking notes and studying any subject
             </WorkGridItem>
+            <hr style={{ marginTop: '50px' }} />
           </Section>
           <Section>
             <WorkGridItem
@@ -41,6 +43,7 @@ const Works = () => {
               A study timer built around the Pomodoro Technique with a "Focus"
               timer and a "Break" timer
             </WorkGridItem>
+            <hr style={{ marginTop: '50px' }} />
           </Section>
         </SimpleGrid>
       </Container>

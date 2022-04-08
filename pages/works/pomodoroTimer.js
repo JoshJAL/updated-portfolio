@@ -29,7 +29,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Browsers</Meta>
-            <span>Google Chrome/Safari/Edge</span>
+            <span>Edge/Firefox/Google Chrome/Safari</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>

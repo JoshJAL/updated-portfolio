@@ -16,7 +16,8 @@ import {
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoLinkedin,
-  IoLogoGoogle
+  IoLogoGoogle,
+  IoDocumentTextOutline
 } from 'react-icons/io5'
 
 const ContactMe = () => (
@@ -109,6 +110,20 @@ const ContactMe = () => (
                 leftIcon={<Icon as={IoLogoFacebook} />}
               >
                 Facebook
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://docs.google.com/document/d/1254COJOSGdsHpjNcSXf-VtdDhUxNAaB2nkCgap_aUQk/edit?usp=sharing"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoDocumentTextOutline} />}
+              >
+                Resume
               </Button>
             </Link>
           </ListItem>
