@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/layouts/grid-item'
 import thumbPeriodicTables from '../public/images/periodicTables/periodicHomePage.jpg'
 import thumbFlashCard from '../public/images/Flashcard-O-Matic/flashcardOMaticHomePage.jpg'
 import thumbPomodoroTimer from '../public/images/pomodoroTimer/pomodoroTimerHomePage.jpg'
+import thumbSimpleCalc from '../public/images/simpleCalc/simpleCalcHome.jpg'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -42,6 +43,17 @@ const Works = () => {
             >
               A study timer built around the Pomodoro Technique with a "Focus"
               timer and a "Break" timer
+            </WorkGridItem>
+            <hr style={{ marginTop: '50px' }} />
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="simpleCalculator"
+              title="Simple Calculator"
+              thumbnail={thumbSimpleCalc}
+            >
+              A simple calculator application that can add, subtract, multiply,
+              and divide.
             </WorkGridItem>
             <hr style={{ marginTop: '50px' }} />
           </Section>
