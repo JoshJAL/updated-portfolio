@@ -121,7 +121,7 @@ const Page = () => {
         </Section>
         <Section>
           <Heading as="h3" variant="section-title">
-            I ♥
+            What makes me happy
           </Heading>
           <Paragraph>
             Building computers, staying up to date with the latest technology,
