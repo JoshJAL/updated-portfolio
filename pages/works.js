@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/layouts/grid-item'
 import thumbPeriodicTables from '../public/images/periodicTables/periodicHomePage.jpg'
@@ -23,7 +23,6 @@ const Works = () => {
             >
               A restaurant reservation system for a fictional restaurant
             </WorkGridItem>
-            <hr style={{ marginTop: '50px' }} />
           </Section>
           <Section>
             <WorkGridItem
@@ -33,7 +32,6 @@ const Works = () => {
             >
               A flashcard making app for taking notes and studying any subject
             </WorkGridItem>
-            <hr style={{ marginTop: '50px' }} />
           </Section>
           <Section>
             <WorkGridItem
@@ -44,7 +42,6 @@ const Works = () => {
               A study timer built around the Pomodoro Technique with a "Focus"
               timer and a "Break" timer
             </WorkGridItem>
-            <hr style={{ marginTop: '50px' }} />
           </Section>
           <Section>
             <WorkGridItem
@@ -55,7 +52,6 @@ const Works = () => {
               A simple calculator application that can add, subtract, multiply,
               and divide.
             </WorkGridItem>
-            <hr style={{ marginTop: '50px' }} />
           </Section>
         </SimpleGrid>
       </Container>

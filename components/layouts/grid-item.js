@@ -30,7 +30,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
             {title}
           </Text>
         </LinkOverlay>
-        <Text style={{ marginBottom: '10px' }} fontSize={14}>
+        <Text style={{ marginBottom: '10px' }} fontSize={14} minHeight={75}>
           {children}
         </Text>
         <Box
@@ -48,6 +48,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
         </Box>
       </LinkBox>
     </NextLink>
+    <hr style={{ marginTop: '50px' }} />
   </Box>
 )
 
