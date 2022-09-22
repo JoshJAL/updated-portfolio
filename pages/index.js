@@ -47,13 +47,13 @@ const Page = () => {
             align="center"
           >
             <Image
-              borderColor="whiteAlpha.800"
+              borderColor="greyAlpha.500"
               borderWidth={2}
               borderStyle="solid"
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/headshot.jpg"
+              src="/images/happyHeadshot.png"
               alt="Profile Image"
             />
           </Box>
@@ -69,8 +69,8 @@ const Page = () => {
             problem-solve for as many people as possible led him to a career in
             web and software development. When not online he loves tinkering as
             much as possible whether that be building computers or playing board
-            games with his family. Currently, he is open to new opportunities
-            and can be reached{' '}
+            games with his family. Currently, he is a web developer at Rob Graham
+            Enterprises but is open to freelance work and collaboration and can be reached{' '}
             <NextLink href="/contactMe">
               <Link>here</Link>
             </NextLink>
@@ -88,6 +88,10 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Began Working at Rob Graham Enterprises as a Javascript Web Developer
+          </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
             Certified by Thinkful as Full Stack Web Developer

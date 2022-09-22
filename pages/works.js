@@ -6,6 +6,7 @@ import thumbFlashCard from '../public/images/Flashcard-O-Matic/flashcardOMaticHo
 import thumbPomodoroTimer from '../public/images/pomodoroTimer/pomodoroTimerHomePage.jpg'
 import thumbSimpleCalc from '../public/images/simpleCalc/simpleCalcHome.jpg'
 import Layout from '../components/layouts/article'
+import thumbTicket from "../public/images/ticketingSolution/ticketForm.jpg"
 
 const Works = () => {
   return (
@@ -50,7 +51,16 @@ const Works = () => {
               thumbnail={thumbSimpleCalc}
             >
               A simple calculator application that can add, subtract, multiply,
-              and divide.
+              and divide
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="ticketSolution"
+              title="Ticketing Solution"
+              thumbnail={thumbTicket}
+            >
+              A scalable ticking solution for any company or organization
             </WorkGridItem>
           </Section>
         </SimpleGrid>
