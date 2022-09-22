@@ -70,7 +70,8 @@ const Page = () => {
             web and software development. When not online he loves tinkering as
             much as possible whether that be building computers or playing board
             games with his family. Currently, he is a web developer at Rob Graham
-            Enterprises but is open to freelance work and collaboration and can be reached{' '}
+            Enterprises, but is open to freelance work and collaboration projects.
+            He can be reached{' '}
             <NextLink href="/contactMe">
               <Link>here</Link>
             </NextLink>
