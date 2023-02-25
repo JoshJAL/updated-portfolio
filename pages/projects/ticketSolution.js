@@ -40,7 +40,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>HTML, TypeScript, JavaScript, and CSS</span>
+            <span>HTML, TypeScript, JavaScript, Next.js, and CSS</span>
           </ListItem>
         </List>
 
