@@ -58,6 +58,19 @@ const Page = () => {
             />
           </Box>
         </Box>
+        <Box align='center'>
+          <Link
+            style={{
+              textDecoration: 'none',
+            }}
+            href="https://docs.google.com/document/d/1254COJOSGdsHpjNcSXf-VtdDhUxNAaB2nkCgap_aUQk/edit?usp=sharing"
+            target="_blank"
+          >
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Resume
+            </Button>
+          </Link>
+        </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             About

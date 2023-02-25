@@ -74,17 +74,6 @@ const ContactMe = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://twitter.com/mygovtname" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                @MyGovtName
-              </Button>
-            </Link>
-          </ListItem> */}
           <ListItem>
             <Link
               href="https://www.instagram.com/joshuaalevine3/"
