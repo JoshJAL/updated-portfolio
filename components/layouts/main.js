@@ -10,7 +10,7 @@ const Main = ({ children, router }) => {
         <title>Joshua Levine</title>
         <link rel="icon" href="/rocket-solid.svg" />
         <meta property='og:description' name="description" content="My Portfolio! Please take some time to learn a little bit about me and don't hesitate to reach out!"/>
-        <meta property='og:image' content='/public/images/happyHeadshot.png' />
+        <meta property='og:image' content='../../public/images/happyHeadshot.png' />
       </Head>
 
       <Navbar path={router.asPath} />
