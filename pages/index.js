@@ -82,8 +82,8 @@ const Page = () => {
             problem-solve for as many people as possible led him to a career in
             web and software development. When not online he loves tinkering as
             much as possible whether that be building computers or playing board
-            games with his family. Currently, he is a web developer at Rob Graham
-            Enterprises, but is open to freelance work and collaboration projects.
+            games with his family. Currently, he is open to new opportunities,
+            freelance work, and collaboration projects.
             He can be reached{' '}
             <NextLink href="/contactMe">
               <Link>here</Link>
@@ -104,7 +104,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2022</BioYear>
-            Began Working at Rob Graham Enterprises as a Javascript Web Developer
+            Working at Rob Graham Enterprises as a Javascript Web Developer
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
