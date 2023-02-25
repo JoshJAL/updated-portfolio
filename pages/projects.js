@@ -7,6 +7,8 @@ import thumbPomodoroTimer from '../public/images/pomodoroTimer/pomodoroTimerHome
 import thumbSimpleCalc from '../public/images/simpleCalc/simpleCalcHome.jpg'
 import Layout from '../components/layouts/article'
 import thumbTicket from "../public/images/ticketingSolution/ticketForm.jpg"
+import thumbJavaSnake from "../public/images/JavaSnake/gameRunning.jpg"
+import thumbJavaCalc from "../public/images/JavaCalc/home.jpg"
 
 const Works = () => {
   return (
@@ -61,6 +63,24 @@ const Works = () => {
               thumbnail={thumbTicket}
             >
               A scalable ticking solution for any company or organization
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="javaSnake"
+              title="Java Snake"
+              thumbnail={thumbJavaSnake}
+            >
+              The classic game of Snake written in Java
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="javaCalc"
+              title="Java Calculator"
+              thumbnail={thumbJavaCalc}
+            >
+              A simple calculator application written in Java
             </WorkGridItem>
           </Section>
         </SimpleGrid>
