@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
         <meta property="og:url" content="https://www.joshualevine.me" />
         <meta property="og:type" content="website" />
         <meta property='og:title' content='Joshua Levine' />
-        <meta property="og:image" content={'../../public/images/happyHeadshot.png'} />
+        <meta property="og:image" content="https://www.joshualevine.me/images/happyHeadshot.png" />
       </Head>
 
       <Navbar path={router.asPath} />
