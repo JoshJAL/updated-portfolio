@@ -8,7 +8,7 @@ import thumbSimpleCalc from '../public/images/simpleCalc/simpleCalcHome.jpg'
 import Layout from '../components/layouts/article'
 import thumbTicket from "../public/images/ticketingSolution/ticketForm.jpg"
 import thumbJavaSnake from "../public/images/JavaSnake/gameRunning.jpg"
-import thumbJavaCalc from "../public/images/JavaCalc/home.jpg"
+import thumbJavaCalc from "../public/images/javaCalc/home.jpg"
 
 const Works = () => {
   return (
