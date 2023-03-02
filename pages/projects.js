@@ -16,7 +16,7 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" variant="section-title">
-          Projects
+          Projects - Click project to view more details
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
