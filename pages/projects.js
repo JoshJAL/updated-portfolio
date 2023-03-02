@@ -9,6 +9,7 @@ import Layout from '../components/layouts/article'
 import thumbTicket from "../public/images/ticketingSolution/ticketForm.jpg"
 import thumbJavaSnake from "../public/images/JavaSnake/gameRunning.jpg"
 import thumbJavaCalc from "../public/images/javaCalc/home.jpg"
+import thumbAdminDashboard from "../public/images/adminDashboard/desktop-light.jpg"
 
 const Works = () => {
   return (
@@ -81,6 +82,15 @@ const Works = () => {
               thumbnail={thumbJavaCalc}
             >
               A simple calculator application written in Java
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="adminDashboard"
+              title="Admin Dashboard"
+              thumbnail={thumbAdminDashboard}
+            >
+              An admin dashboard for an e-commerce; with light and dark mode
             </WorkGridItem>
           </Section>
         </SimpleGrid>
