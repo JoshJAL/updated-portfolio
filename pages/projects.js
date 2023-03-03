@@ -10,13 +10,14 @@ import thumbTicket from "../public/images/ticketingSolution/ticketForm.jpg"
 import thumbJavaSnake from "../public/images/JavaSnake/gameRunning.jpg"
 import thumbJavaCalc from "../public/images/javaCalc/home.jpg"
 import thumbAdminDashboard from "../public/images/adminDashboard/desktop-light.jpg"
+import thumbTextEditor from "../public/images/javaTextEditor/firstOpen.png"
 
 const Works = () => {
   return (
     <Layout>
       <Container>
         <Heading as="h3" variant="section-title">
-          Projects - Click project to view more details
+          Projects - Click project to expand
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
@@ -91,6 +92,15 @@ const Works = () => {
               thumbnail={thumbAdminDashboard}
             >
               An admin dashboard for an e-commerce; with light and dark mode
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="javaTextEditor"
+              title="Text Editor"
+              thumbnail={thumbTextEditor}
+            >
+              A simple text editor written in Java
             </WorkGridItem>
           </Section>
         </SimpleGrid>
