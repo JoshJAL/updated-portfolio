@@ -10,6 +10,7 @@ import thumbTicket from "../public/images/ticketingSolution/ticketForm.jpg"
 import thumbJavaSnake from "../public/images/JavaSnake/gameRunning.jpg"
 import thumbJavaCalc from "../public/images/javaCalc/home.jpg"
 import thumbAdminDashboard from "../public/images/adminDashboard/desktop-light.jpg"
+import thumbTextEditor from "../public/images/JavaTextEditor/firstOpen.png"
 
 const Works = () => {
   return (
@@ -97,7 +98,7 @@ const Works = () => {
             <WorkGridItem
               id="javaTextEditor"
               title="Text Editor"
-              thumbnail={thumbAdminDashboard}
+              thumbnail={thumbTextEditor}
             >
               A simple text editor written in Java
             </WorkGridItem>
