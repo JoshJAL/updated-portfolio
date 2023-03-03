@@ -30,7 +30,7 @@ const Work = () => {
         </List>
 
         <WorkImage
-          src="/images/JavaTextEditor/someText.png"
+          src="/images/JavaTextEditor/firstOpen.png"
           alt="Java Text Editor first open"
         />
         <WorkImage
