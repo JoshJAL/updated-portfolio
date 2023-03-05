@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import { Text, useColorMode, useColorModeValue } from '@chakra-ui/react'
+import Link from 'next/link';
+import { Text, useColorMode, useColorModeValue } from '@chakra-ui/react';
 
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -15,24 +15,24 @@ const LogoBox = styled.span`
   &:hover img {
     transform: rotate(20deg);
   }
-`
+`;
 
 const Logo = () => {
   return (
-    <Link href="/">
+    <Link href='/'>
       <a>
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily={'M PLUS Rounded 1c'}
-          fontWeight="bold"
+          fontWeight='bold'
           ml={3}
-          fontSize="21px"
+          fontSize='21px'
         >
           Joshua Levine
         </Text>
       </a>
     </Link>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;
