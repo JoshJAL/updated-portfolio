@@ -65,6 +65,11 @@ const Works = () => {
               A simple text editor written in Java
             </WorkGridItem>
           </Section>
+          <Section>
+            <WorkGridItem id='thingsIUse' title='The Tech I Use' thumbnail={thumbTextEditor}>
+              A curated list of the tech I use
+            </WorkGridItem>
+          </Section>
         </SimpleGrid>
       </Container>
     </Layout>
