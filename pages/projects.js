@@ -11,6 +11,7 @@ import thumbJavaSnake from '../public/images/JavaSnake/gameRunning.jpg';
 import thumbJavaCalc from '../public/images/javaCalc/home.jpg';
 import thumbAdminDashboard from '../public/images/adminDashboard/desktop-light.jpg';
 import thumbTextEditor from '../public/images/JavaTextEditor/firstOpen.png';
+import thumbThingsIUse from '../public/images/thingsIUse/home-dark.png';
 
 const Works = () => {
   return (
@@ -66,7 +67,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id='thingsIUse' title='The Tech I Use' thumbnail={thumbTextEditor}>
+            <WorkGridItem id='thingsIUse' title='The Tech I Use' thumbnail={thumbThingsIUse}>
               A curated list of the tech I use
             </WorkGridItem>
           </Section>
