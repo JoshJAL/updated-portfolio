@@ -21,7 +21,7 @@ const Work = () => {
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Working Application</Meta>
+            <Meta>Hosted Application</Meta>
             <Link href='https://admin-dashboard-six-lake.vercel.app/'>
               https://admin-dashboard-six-lake.vercel.app/ <ExternalLinkIcon mx='2px' />
             </Link>

@@ -19,6 +19,12 @@ const Work = () => {
         </P>
         <List ml={4} my={4}>
           <ListItem>
+            <Meta>Hosted Application</Meta>
+            <Link href='https://things-i-use.vercel.app/'>
+              https://things-i-use.vercel.app/ <ExternalLinkIcon mx='2px' />
+            </Link>
+          </ListItem>
+          <ListItem>
             <Meta>GitHub Repository</Meta>
             <Link href='https://github.com/JoshJAL/what-i-use'>
               https://github.com/JoshJAL/what-i-use <ExternalLinkIcon mx='2px' />
@@ -30,7 +36,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Astro, React, Typescript, JavScript, Markdown</span>
+            <span>Astro, React, Typescript, JavScript, Tailwind, Markdown</span>
           </ListItem>
         </List>
 

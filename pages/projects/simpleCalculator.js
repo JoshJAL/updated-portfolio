@@ -17,7 +17,7 @@ const Work = () => {
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Working Application</Meta>
+            <Meta>Hosted Application</Meta>
             <Link href='https://joshjal.github.io/simpleCalculator/'>
               https://joshjal.github.io/simpleCalculator/ <ExternalLinkIcon mx='2px' />
             </Link>
