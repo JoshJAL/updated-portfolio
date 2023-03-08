@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article';
 
 const Work = () => {
   return (
-    <Layout title='adminDashboard'>
+    <Layout title='javaTextEditor'>
       <Container marginTop={4}>
         <Title>
           Text Editor <Badge>2023</Badge>
