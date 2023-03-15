@@ -36,8 +36,7 @@ const ContactMe = () => (
           </ListItem>
           <ListItem>
             <Link
-              href='https://mail.google.com/mail/?view=cm&source=mailto&to=joshuaalevine3@gmail.com
-'
+              href='https://mail.google.com/mail/?view=cm&source=mailto&to=joshuaalexanderlevine@gmail.com'
               target='_blank'
             >
               <Button variant='ghost' colorScheme='teal' leftIcon={<Icon as={IoLogoGoogle} />}>
